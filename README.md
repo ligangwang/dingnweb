@@ -56,3 +56,4 @@ kill -9 6218
 
 # Debug info
 kubectl logs dingnweb-node-..... (pod name, kubectl get pod)
+    
