@@ -1,14 +1,32 @@
 {
   "name": "dingnweb",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "dingnweb",
-  "main": "server.js",
-  "dependencies": {},
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "Ligang Wang",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligangwang/dingnweb.git"
+  },
+  "keywords": [
+    "the",
+    "project",
+    "practicing",
+    "nodejs",
+    "and",
+    "gke"
+  ],
+  "bugs": {
+    "url": "https://github.com/ligangwang/dingnweb/issues"
+  },
+  "homepage": "https://github.com/ligangwang/dingnweb#readme"
 }

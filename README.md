@@ -53,3 +53,6 @@ gsutil rm -r gs://artifacts.dingnweb.appspot.com/
 lsof -nP +c 15 | grep LISTEN
 # Kill process
 kill -9 6218
+
+# Debug info
+kubectl logs dingnweb-node-..... (pod name, kubectl get pod)
