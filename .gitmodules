@@ -1,0 +1,3 @@
+[submodule "rubikscube"]
+	path = rubikscube
+	url = https://github.com/ligangwang/rubikscube
