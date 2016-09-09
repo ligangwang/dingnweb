@@ -7,6 +7,7 @@ docker run -d -p 8080:8080 --name dingnweb gcr.io/dingnweb/dingnweb-node:v1
 # Verify in browser http://localhost:8080/
 # Stopping the running container
 docker stop dingnweb
+docker rm dingnweb
 # Push the image to gcr 
 gcloud docker push gcr.io/dingnweb/dingnweb-node:v1
 
